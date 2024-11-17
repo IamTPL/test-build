@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --primary-color: #fb923c;
+    --cyan-color: #22d3ee;
+}
+
+@layer base {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
+}
+
+.primary-button {
+    color: white;
+    background-color: #fb923c;
+}
+
+.primary-button:hover {
+    background-color: #f97316 !important; /* Màu nền khi hover */
+    border-color: #f97316 !important; /* Màu viền khi hover */
+}
+
+.secondary-button:hover {
+    color: #f97316 !important; /* Màu nền khi hover */
+    border-color: #f97316 !important; /* Màu viền khi hover */
+}

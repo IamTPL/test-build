@@ -1,0 +1,13 @@
+.review-column {
+    max-width: 200px;
+}
+
+.dynamic-input {
+    width: 100px;
+}
+
+.css-dev-only-do-not-override-apn68
+    .ant-input-outlined:focus-within.dynamic-input {
+    box-shadow: 0 0 0 2px #ff8c00; /* Màu cam nhạt */
+    border-color: #ff8c00; /* Đổi màu border */
+}
